@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Smartphone Price Range Prediction</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body background="/static/images/download 0.jpg">
+<!-- Input Form -->
+<div  class="input form">
+   <h1>Smartphone Price Range Prediction📱</h1>
+  <form action="{{url_for('predict')}}"method="post" id="input head">
+   <div class="row">
+        <p>Enter Battery Power(mAh):</p>
+        <p><input class="form-control" type = "text" name = "batt" /></p>
+</div >
+<div class="row">
+        <p>Enter Front Camera(MP):</p>
+        <p><input class="form-control" type = "text" name = "fc" /></p>
+</div >
+<div class="row">
+        <p>Enter Primary Camera(MP):</p>
+        <p><input class="form-control" type = "text" name = "pc" /></p>
+</div >
+<div class="row">
+        <p>Enter Internal Memory(GB):</p>
+        <p><input class="form-control" type = "text" name = "int" /></p>
+</div >
+<div class="row">
+        <p>Enter Ram:</p>
+        <p><input class="form-control" type = "text" name = "ram" /></p>
+</div >
+<div class="row">
+        <p>Enter Pixel Resolution Height:</p>
+        <p><input class="form-control" type = "text" name = "pxh" /></p>
+</div >
+<div class="row">
+        <p>Enter Pixel Resolution Width(cm):</p>
+        <p><input class="form-control" type = "text" name = "pxw" /></p>
+</div >
+<div class="row">
+        <p>Enter Weight of Mobile:</p>
+        <p><input class="form-control" type = "text" name = "wei" /></p>
+</div >
+<div class="row">
+        <p>Enter Screen width:</p>
+        <p><input class="form-control" type = "text" name = "sw" /></p>
+</div >
+<div class="row">
+        <p>Enter Screen Height:</p>
+        <p><input class="form-control" type = "text" name = "sh" /></p>
+</div >
+
+<div class="row">
+    <button id="submit" type="submit">Submit</button>
+    </div>
+     </form>
+
+</div>   
+</body>
+</html>
